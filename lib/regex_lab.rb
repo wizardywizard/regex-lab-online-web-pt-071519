@@ -8,7 +8,7 @@ def words_starting_with_un_and_ending_with_ing(text)
   text = text.split(" ")
   text.each do |word|
   if word.start_with?("un") && word.end_with?("ing") == true
-    word << word.start_with?("un") && word.end_with?("ing")
+    words << word.start_with?("un") && word.end_with?("ing")
    end
   end
   words
