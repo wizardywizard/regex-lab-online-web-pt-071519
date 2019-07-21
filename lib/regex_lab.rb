@@ -4,8 +4,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   word = []
-text.start_with?(/un/) && text.end_with?(/ing/)
-if 
+  if text.start_with?(/un/) && text.end_with?(/ing/)
 end
 
 def words_five_letters_long(text)
